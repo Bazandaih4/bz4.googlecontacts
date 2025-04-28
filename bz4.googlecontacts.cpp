@@ -1,4 +1,4 @@
-﻿/**
+/**
  * @file bz4.googlecontacts
  * @brief Конвертирует CSV файл из Google Forms в формат Google Contacts CSV.
  *
@@ -24,12 +24,12 @@
  * - Поля Organization Name, Organization Title, E-mail Labels, Phone Label НЕ ЗАПОЛНЯЮТСЯ.
  *
  * Компиляция (пример с g++):
- *   g++ bz4.googlecontacts -o csv_transformer -std=c++11 (или новее)
+ *   g++ bz4.googlecontacts -o bz4.googlecontacts -std=c++11 (или новее)
  *
  * Использование:
  * 1. Поместите исходный CSV файл в ту же директорию, что и скомпилированная программа.
- * 2. Запустите программу: ./csv_transformer
- * 3. Или укажите имена файлов: ./csv_transformer "input.csv" "output.csv"
+ * 2. Запустите программу: ./bz4.googlecontacts
+ * 3. Или укажите имена файлов: ./bz4.googlecontacts "input.csv" "output.csv"
  * 4. Программа запросит название для группы контактов (Labels).
  * 5. Будет создан выходной CSV файл.
  *
